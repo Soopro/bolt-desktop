@@ -2,9 +2,9 @@
 
 const AppName = 'Soopro Desktop Client'
 
-const fs = require('fs')
-const packager = require('electron-packager')
-const dmg = require('appdmg')
+const fs = require('fs');
+const packager = require('electron-packager');
+const dmg = require('appdmg');
 
 fs.stat('dist/Soopro-Desktop-Installer.dmg', function(error, stats){
   if (stats && stats.isFile()){

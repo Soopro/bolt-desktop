@@ -35,6 +35,7 @@ packager({
 
 
 let build_dmg = function () {
+  console.log("Build DMG......")
   dmg({
     'target': 'dist/Soopro-Desktop-Installer.dmg',
     'basepath': __dirname,

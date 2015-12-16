@@ -13,7 +13,7 @@ electron.crashReporter.start();
 // be closed automatically when the JavaScript object is garbage collected.
 let win;
 let opts = {
-  // fullscreen: true,
+  fullscreen: true,
   title: 'Soopro',
   width: 1650,
   height: 960,
@@ -109,7 +109,7 @@ let defaultTemplate = function (){
           label: 'Select All',
           accelerator: 'CmdOrCtrl+A',
           role: 'selectall'
-        },
+        }
       ]
     },
     {
@@ -166,17 +166,7 @@ let defaultTemplate = function (){
           role: 'close'
         },
       ]
-    },
-    {
-      label: 'Help',
-      role: 'help',
-      submenu: [
-        {
-          label: 'Learn More',
-          click: function() { shell.openExternal('http://electron.atom.io') }
-        },
-      ]
-    },
+    }
   ];
 
   if (process.platform == 'darwin') {

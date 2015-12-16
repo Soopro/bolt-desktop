@@ -1,5 +1,5 @@
 {
-  "name": "soopro-desktop",
+  "name": "bolt-desktop-client",
   "version": "0.1.0",
   "description": "Soopro desktop client application.",
   "main": "main.js",

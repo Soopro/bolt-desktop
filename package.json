@@ -1,0 +1,24 @@
+{
+  "name": "soopro-desktop",
+  "version": "0.1.0",
+  "description": "Soopro desktop client application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "release": "node pack.js"
+  },
+  "keywords": [
+    "Soopro",
+    "desktop",
+    "start",
+    "content",
+    "management"
+  ],
+  "author": "Redy",
+  "license": "MIT",
+  "dependencies": {
+    "appdmg": "^0.3.5",
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.0"
+  }
+}

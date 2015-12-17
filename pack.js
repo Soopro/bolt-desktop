@@ -42,15 +42,15 @@ let build_dmg = function () {
     'specification': {
       'title': AppName,
       'icon': 'assets/installer_icon.icns',
-      'background': 'assets/installer_background.tif',
+      'background': 'assets/installer_background.png',
       'icon-size': 128,
       'contents': [
         { 
-          'x': 420, 'y': 170, 'type': 'link', 
+          'x': 420, 'y': 180, 'type': 'link', 
           'path': '/Applications' 
         },
         { 
-          'x': 180, 'y': 170, 'type': 'file',
+          'x': 180, 'y': 180, 'type': 'file',
           'path': 'dist/'+AppName+'-darwin-x64/'+AppName+'.app'
         },
       ]

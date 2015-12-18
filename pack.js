@@ -26,7 +26,7 @@ packager({
   'ignore': '(dist|node_modules/.*)',
   'out': './dist/',
   'overwrite': true,
-  'icon': __dirname+'/assets/application_icon.icns'
+  'icon': __dirname+'/assets/app_icon.icns'
 }, function (error, app_path){
   console.log(error);
   console.log(app_path);
